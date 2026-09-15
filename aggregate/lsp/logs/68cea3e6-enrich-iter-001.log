@@ -1,0 +1,38 @@
+[2026-09-15T12:13:50Z] === ENRICH ITERATION 1 START | repo=import-js/eslint-plugin-import sha=68cea3e6 ===
+[2026-09-15T12:13:50Z] [iter=1] PHASE START: enrich repo=import-js/eslint-plugin-import sha=68cea3e6 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/68cea3e6-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/68cea3e6b6fe5fd61e5cf2e2c7c0be9e8dc597cb.nq.gz
+[2026-09-15T12:14:37Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=85 MB
+[2026-09-15T12:14:42Z] [iter=1] AST store loaded triples=678242 load_secs=5 mem_mb=860 MB
+[2026-09-15T12:14:42Z] [iter=1] Step 2: Finding LSP targets mem_mb=860 MB
+[2026-09-15T12:14:42Z] [iter=1] LSP targets found call_sites=6362 imports=0 extends=1 implements=0 secs=1
+[2026-09-15T12:14:42Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=860 MB
+[2026-09-15T12:14:46Z] [iter=1] Position index built positions=48697 nodes_with_types=55661 secs=4 mem_mb=860 MB
+[2026-09-15T12:14:46Z] [iter=1] Step 3: Starting LSP resolution mem_mb=860 MB already_completed_types=[] already_completed_files=0
+[2026-09-15T12:14:46Z] [iter=1] Resolving target type target_type=call_site count=6362
+[2026-09-15T12:14:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=tests/src/rules/no-unused-modules.js
+[2026-09-15T12:16:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=1 resolved=3 errors=348 current=src/rules/order.js
+[2026-09-15T12:17:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=4 resolved=52 errors=539 current=tests/src/rules/no-namespace.js
+[2026-09-15T12:18:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=7 resolved=68 errors=729 current=utils/resolve.js
+[2026-09-15T12:18:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=15 resolved=123 errors=857 current=tests/src/rules/namespace.js
+[2026-09-15T12:19:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=19 resolved=140 errors=992 current=src/ExportMap.js
+[2026-09-15T12:19:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.9 files_done=23 resolved=165 errors=1128 current=tests/src/core/importType.js
+[2026-09-15T12:20:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=24 resolved=165 errors=1329 current=tests/src/rules/no-internal-modules.js
+[2026-09-15T12:21:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=28 resolved=165 errors=1461 current=src/rules/extensions.js
+[2026-09-15T12:22:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.3 files_done=37 resolved=175 errors=1658 current=src/rules/no-useless-path-segments.js
+[2026-09-15T12:22:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.8 files_done=41 resolved=294 errors=1786 current=src/rules/no-extraneous-dependencies.js
+[2026-09-15T12:23:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=46 resolved=317 errors=1924 current=tests/src/rules/no-unresolved.js
+[2026-09-15T12:23:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.1 files_done=48 resolved=345 errors=2064 current=scripts/copyMetafiles.js
+[2026-09-15T12:24:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=55 resolved=358 errors=2180 current=resolvers/webpack/test/files/webpack.config.multiple.js
+[2026-09-15T12:25:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.2 files_done=61 resolved=367 errors=2311 current=tests/src/rules/no-relative-packages.js
+[2026-09-15T12:25:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.1 files_done=63 resolved=414 errors=2538 current=resolvers/webpack/test/packageMains.js
+[2026-09-15T12:26:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=71 resolved=430 errors=2674 current=tests/src/rules/no-unassigned-import.js
+[2026-09-15T12:27:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=77 resolved=455 errors=2829 current=utils/hash.js
+[2026-09-15T12:27:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.0 files_done=83 resolved=474 errors=2975 current=src/rules/no-dynamic-require.js
+[2026-09-15T12:28:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.6 files_done=99 resolved=499 errors=3101 current=src/rules/no-named-as-default-member.js
+[2026-09-15T12:28:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=113 resolved=514 errors=3218 current=src/rules/no-webpack-loader-syntax.js
+[2026-09-15T12:29:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=148 resolved=535 errors=3331 current=tests/src/rules/no-commonjs.js
+[2026-09-15T12:29:32Z] [iter=1] Target type resolved target_type=call_site resolved=540 errors=3339 secs=886 mem_mb=860 MB
+[2026-09-15T12:29:32Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-09-15T12:29:34Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=2 mem_mb=860 MB
+[2026-09-15T12:29:41Z] [iter=1] Step 5: Writing final enrichment file triples=63551
+[2026-09-15T12:29:43Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/68cea3e6b6fe5fd61e5cf2e2c7c0be9e8dc597cb.nq.gz size_kb=1215
+[2026-09-15T12:29:43Z] [iter=1] PHASE END: enrich elapsed_s=952 elapsed_min=15.9 total_triples=63551
