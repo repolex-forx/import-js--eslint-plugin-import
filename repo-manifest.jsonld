@@ -1179,8 +1179,9 @@
     {
       "@id": "https://repolex.ai/r/import-js/eslint-plugin-import/commit/67103e698dcaa02a95f95145d2db6a04f1a573f8",
       "git:hexsha": "67103e698dcaa02a95f95145d2db6a04f1a573f8",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "v2.25.2"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v2.25.2",
+      "repolex:parsedAt": "2026-09-15T12:59:26.695669+00:00"
     },
     {
       "@id": "https://repolex.ai/r/import-js/eslint-plugin-import/commit/7c239fed485ea0785a96c1fa2045d96c181bb79c",
